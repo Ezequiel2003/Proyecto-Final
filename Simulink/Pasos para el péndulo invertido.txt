@@ -1,0 +1,3 @@
+1- Ejecutar E:\control_lab\Rotary\Rotary Inverted Pendulum\Courseware\Controllers\setup_rotpen.m
+2- Ejecutar E:\control_lab\Rotary\Rotary Inverted Pendulum\Courseware\Controllers\d_pole_placement.m
+3- Abrir E:\control_lab\Rotary\Rotary Inverted Pendulum\Courseware\Controllers\q_rotpen_bal.mdl (o el modificado por mí en la carpeta PF-EC en el escritorio.

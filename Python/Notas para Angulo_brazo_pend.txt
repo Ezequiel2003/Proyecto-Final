@@ -1,0 +1,4 @@
+Se colocó el cálculo de inclinación en una función para que sea invocado para el brazo o el péndulo. Luego, se añadió como parámetro en encontrar_puntob el punto inicial. De esta forma, se evita usar la variable global.
+Las calibraciones están contempladas si es para brazo o péndulo.
+Falta encontrar la forma de guardar las posiciones de las coordenadas de las máscaras, sabiendo que sea para brazo o péndulo. Encararlo con una clase. 
+Se encaró con clase y se acomodó el programa para leer ambas cámaras, se supone que quedó listo para ir a la universidad y probar... suerte soldado

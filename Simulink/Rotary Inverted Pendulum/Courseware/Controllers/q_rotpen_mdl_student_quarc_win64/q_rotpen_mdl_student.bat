@@ -1,0 +1,4 @@
+@echo on
+@call "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\VCVARSALL.BAT " x86_amd64
+set MATLAB=C:\PROGRA~1\MATLAB\R2017a
+nmake -f q_rotpen_mdl_student.mk  ISPROTECTINGMODEL=NOTPROTECTING MAT_FILE=0 SHOW_TIMES=0 DEBUG=0 DEBUG_HEAP=0 OPTS="-DON_TARGET_WAIT_FOR_START=0"

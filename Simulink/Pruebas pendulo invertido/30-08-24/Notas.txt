@@ -1,0 +1,5 @@
+Se probó de nuevo con el brazo y se tomaron capturas utilizando como fuente la cámara y el encoder para comparar, en la cámara se puede ver que algunas muestras se obtienen entre 16 ms aprox. y otras entre 30 ms aprox al usar 2 decimales. Con 4 decimales se observaban mayores valores entre muestras, partiendo de 19,8 ms aprox. Y en comparación con el encoder, este mismo tiene muestras que van desde los 8 ms hasta los 11 ms aprox., lo cual presenta una mayor ventaja al actualizar más rápido los valores leídos.
+Al disminuir la frecuencia natural a 1.5 rad/s mejoró la respuesta con la cámara, ya que a mayor frecuencia natural, mayor es la velocidad de respuesta, pero en este caso, la cámara no tiene dicha velocidad. Esto por supuesto que cambia la ubicación de los polos.
+
+
+

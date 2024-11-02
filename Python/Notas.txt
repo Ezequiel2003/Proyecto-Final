@@ -1,0 +1,5 @@
+La versión junto4_pruebaseg funciona con el método de seguridad, cortando los datos para que no se mueva de manera loca el brazo. Con vista desde el frente, sin montar el soporte
+
+19-8-24 La versión junto5_pruebaseg es con el soporte, y la cámara ya no estará de frente, sino cruzada y con vista superior montada en la pared. Se cambiaron las umbralizaciones otsu por directamente la binaria, por diferencias de luz. Para no tener problemas de lectura del brazo, se rota la imagen 90°, esto provoca un cambio en su aspecto de visualizacion. Además, se acomodaron las máscaras para la detección de los puntos blancos. Se comprueba con Simulink y su encoder, y bastante acertado los ángulos de inclinación, para una amplitud de 0.3 y frecuencia de 0.35 Hz se llega a un pico de error máximo de 0.04 rad y -0.04 rad, es decir un aproximado de 2,29 grados. La imagen es con 60 FPS.
+
+20-08-24. En el bloque HIL encoder read se ve que utiliza una variable como tiempo de muestreo, esta misma es 1 ms, frente a 16 ms aprox que brinda la cámara.
