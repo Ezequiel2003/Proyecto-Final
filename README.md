@@ -5,3 +5,5 @@ Aquí se encuentran para hallar de manera rápida los archivos que se utilizan e
 2- setup_rotpen.m. Es el último archivo de Matlab para la configuración del sistema.
 
 3- Angulo_brazo_pend_seg2.py. Es el último archivo de Python.
+
+4- q_rotpen_bal_Eze_2_pcie_6321.slx. Es el último archivo de Simulink utilizando la placa alternativa.
